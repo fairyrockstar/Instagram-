@@ -20,7 +20,8 @@ class Bruter(object):
         self.is_found = False
 
         self.password: str = None
-        self.username: str = username
+        self.username: str = xoxo.coustom
+    
         self.last_password: str = None
 
         self.bots_per_proxy = 0
